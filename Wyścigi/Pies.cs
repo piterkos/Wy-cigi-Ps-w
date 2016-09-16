@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Threading;
 using System.Drawing;
 using System.Windows.Forms;
 
@@ -25,6 +26,7 @@ namespace Wyścigi
                 Point p = MojObrazek.Location;
                 p.X += Dystans;
                 MojObrazek.Location = p;
+            Thread.Sleep(100);
                         
             if (MojObrazek.Location.X > DlugoscTrasy)
             {
@@ -42,6 +44,7 @@ namespace Wyścigi
             Point p = MojObrazek.Location;
             p.X = PozycjaStartowa;
             MojObrazek.Location = p;
+            
         }
     }
 }
