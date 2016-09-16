@@ -1,0 +1,9 @@
+c:\users\piter\onedrive\dokumenty\visual studio 2015\Projects\Wyścigi\Wyścigi\bin\Debug\Wyścigi.exe.config
+c:\users\piter\onedrive\dokumenty\visual studio 2015\Projects\Wyścigi\Wyścigi\bin\Debug\Wyścigi.exe
+c:\users\piter\onedrive\dokumenty\visual studio 2015\Projects\Wyścigi\Wyścigi\bin\Debug\Wyścigi.pdb
+c:\users\piter\onedrive\dokumenty\visual studio 2015\Projects\Wyścigi\Wyścigi\obj\Debug\Wyścigi.csprojResolveAssemblyReference.cache
+c:\users\piter\onedrive\dokumenty\visual studio 2015\Projects\Wyścigi\Wyścigi\obj\Debug\Wyścigi.Form1.resources
+c:\users\piter\onedrive\dokumenty\visual studio 2015\Projects\Wyścigi\Wyścigi\obj\Debug\Wyścigi.Properties.Resources.resources
+c:\users\piter\onedrive\dokumenty\visual studio 2015\Projects\Wyścigi\Wyścigi\obj\Debug\Wyścigi.csproj.GenerateResource.Cache
+c:\users\piter\onedrive\dokumenty\visual studio 2015\Projects\Wyścigi\Wyścigi\obj\Debug\Wyścigi.exe
+c:\users\piter\onedrive\dokumenty\visual studio 2015\Projects\Wyścigi\Wyścigi\obj\Debug\Wyścigi.pdb
