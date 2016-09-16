@@ -26,7 +26,8 @@ namespace Wyścigi
                 Point p = MojObrazek.Location;
                 p.X += Dystans;
                 MojObrazek.Location = p;
-            Thread.Sleep(100);
+                Thread.Sleep(100);
+            
                         
             if (MojObrazek.Location.X > DlugoscTrasy)
             {

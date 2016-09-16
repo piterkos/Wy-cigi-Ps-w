@@ -28,7 +28,7 @@ namespace Wyścigi
             }
             else
             {
-                MojLabel.Text = Imie + " stawia " + MojZaklad.Stawka + " zł na chrta numer " + MojZaklad.NrPsa;
+                MojLabel.Text = Imie + " stawia " + MojZaklad.Stawka + " zł na charta numer " + MojZaklad.NrPsa;
             }
         }
         public void WyczyscZaklad()
@@ -51,7 +51,7 @@ namespace Wyścigi
             else
             {
                 MessageBox.Show(this.Imie + " Nie posiadasz wystarczających środków, aby postawić zakład");
-                this.MojLabel.Text = "Brak środków do obstawienia";
+                this.MojZaklad = null;
                 return false;
             }
         }

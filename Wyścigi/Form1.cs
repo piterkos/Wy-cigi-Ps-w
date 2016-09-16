@@ -53,7 +53,7 @@ namespace Wyścigi
                 if (Faceci[i].Imie == StawiaLabel.Text)
                 {
                     Faceci[i].PostawZaklad((int)StawkaNumericUpDown1.Value, (int)PiesNumericUpDown1.Value);
-                    Faceci[i].MojZaklad.PobierzZaklad();
+                    //Faceci[i].MojZaklad.PobierzZaklad();
                     Faceci[i].Odswiez();
                 }
             }                
