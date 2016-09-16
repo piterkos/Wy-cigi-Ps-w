@@ -24,7 +24,7 @@ namespace Wyścigi
             Faceci = new Facet[3];
             Psy = new Pies[4];
 
-            Faceci[0] = new Facet { Imie = "Piotr", Gotowka = 100, MojLabel = PiotrLabel, MojRadioButton = PiotrRadioButton1 };
+            Faceci[0] = new Facet { Imie = "Piotr", Gotowka = 10, MojLabel = PiotrLabel, MojRadioButton = PiotrRadioButton1 };
             Faceci[1] = new Facet { Imie = "Przemo", Gotowka = 100, MojLabel = PrzemoLabel, MojRadioButton = PrzemoRadioButton };
             Faceci[2] = new Facet { Imie = "Bob", Gotowka = 100, MojLabel = BobLabel, MojRadioButton = BobRadioButton };
 
@@ -77,6 +77,7 @@ namespace Wyścigi
 
         private void StartButton_Click(object sender, EventArgs e)
         {
+            PiesZwycesca = 5;
             while (PiesZwycesca == 5)
             {
                 for (int i = 0; i < Psy.Length; i++)
@@ -96,7 +97,9 @@ namespace Wyścigi
             for (int i = 0; i < Faceci.Length; i++)
             {
                 Faceci[i].Inkasuj(PiesZwycesca);
+                Faceci[i].Odswiez();
             }
+            
         }
     }
 }

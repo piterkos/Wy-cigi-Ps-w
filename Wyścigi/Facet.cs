@@ -50,16 +50,27 @@ namespace Wyścigi
             }
             else
             {
+                MessageBox.Show(this.Imie + " Nie posiadasz wystarczających środków, aby postawić zakład");
+                this.MojLabel.Text = "Brak środków do obstawienia";
                 return false;
             }
         }
 
         public void Inkasuj(int piesZwyciesca)
         {
-            int WygranyPies = piesZwyciesca;
-            this.Gotowka += this.MojZaklad.Wyplac(WygranyPies);
-            this.Odswiez();
-            this.MojZaklad = null;
+            if (this.MojZaklad == null)
+            {
+                MessageBox.Show(this.Imie + "Nie obstawił!");
+                
+            }
+            else
+            {
+                int WygranyPies = piesZwyciesca;
+                this.Gotowka += this.MojZaklad.Wyplac(WygranyPies);
+                this.Odswiez();
+                this.MojZaklad = null;
+            }
+           
             
         }
 
